@@ -1,0 +1,56 @@
+
+BLOG SCRAPING COMPARISON REPORT
+
+Sources:
+1. Google Blog
+2. Python Insider
+
+Sample:
+10 articles from Google Blog
+10 articles from Python Insider
+Total = 20 articles
+
+MEAN RESULTS
+
+Google Blog mean sentiment polarity:
+0.1975
+
+Python Insider mean sentiment polarity:
+0.1806
+
+Difference in mean sentiment polarity:
+0.0169
+
+Google Blog mean noun density:
+35.59%
+
+Python Insider mean noun density:
+33.60%
+
+Difference in mean noun density:
+1.99 percentage points
+
+STATISTICAL TESTS
+
+Sentiment polarity:
+t-statistic = 0.8149
+p-value = 0.4259
+
+Noun density:
+t-statistic = 0.7383
+p-value = 0.4709
+
+INTERPRETATION
+
+The analysis compares ten articles from each of two different blog sources.
+The observed difference in mean sentiment polarity is 0.0169,
+while the observed difference in mean noun density is 1.99
+percentage points. These differences describe the sample, but their practical
+meaning should be interpreted carefully because the sample contains only ten
+articles per source. With such a small sample, individual articles can have a
+large effect on the group mean, and the selected articles may not represent all
+articles published by either blog. Therefore, even a noticeable numerical
+difference may not generalize to the wider populations of articles without a
+larger and more systematically selected sample. The p-values from the
+statistical tests should also be considered alongside the effect sizes and the
+limitations of the small sample.
